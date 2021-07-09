@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 const Button = ({ name }) => (
 
-  React.createElement('button', { type: 'button' }, name)
+  <>
+    <button type="button">{name}</button>
+  </>
 );
 
 Button.propTypes = {
