@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+Calculator
+Simple calculator created with React Framework. It includes all basic operations and edge cases such a number divided by 0 is equal to 'Math Error'.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Calculator
 
-## Available Scripts
+Built With
+Npm
+Heroku
+React
+Live Preview
+Demo
 
+Getting Started
+To get a local copy up and running follow these simple example steps.
+
+Prerequisites
+Computer running Mac OS, Windows, or Linux Ubuntu.
+
+Internet browser: Firefox, Google Chrome, Opera, etc...
+
+Install NodeJs
+
+Optional (For deployment)
+
+Install Heroku CLI
+
+Setup
+Download the code or copy the git repository to your computer.
+
+To install dependencies you need to run the following command in your terminal.
+
+  npm install
+Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `npm test`
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
+npm run build
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about deployment for more information.
 
-### `npm run eject`
+npm run eject
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Deployment
+This project is deployed to Heroku, but you can use Netlify or other platforms you like.
 
-## Learn More
+For Heroku deployment we you can enter each of the following commands.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    heroku create your-app-name --buildpack mars/create-react-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    // you can remove 'your-app-name' if you don't know what name to put
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    git push heroku master
 
-### Analyzing the Bundle Size
+    // if you are deploying the project from the master branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+    git push heroku your-branch:master
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    // if you are deploying from a branch different from master
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    heroku open
+And there you go! You have your app deployed to Heroku.
 
-### Deployment
+Authors
+👤 Steven Jack Chung
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+GitHub: @cgcarlosg
+Twitter: @cgcarlosg1
+LinkedIn: carlosalbeniogutierrez
 
-### `npm run build` fails to minify
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the issues page.
+
+Show your support
+Give a ⭐️ if you like this project!
+
