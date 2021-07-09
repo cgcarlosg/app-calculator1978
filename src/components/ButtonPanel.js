@@ -8,7 +8,7 @@ const ButtonPanel = () => {
       {group.map(elem => (
         <div key={elem.id}>
           {elem.map(btn => (
-            React.createElement('button', { type: 'button' }, btn)
+            <Button key={btn.id} name={btn}/>
           ))}
         </div>
       ))}

@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ name }) => (
-  <div>
-    {name}
-  </div>
+
+  React.createElement('button', { type: 'button' }, name)
 );
 
-Display.propTypes = {
+Button.propTypes = {
   result: PropTypes.string,
 };
 
-Display.defaultProps = {
+Button.defaultProps = {
   name: '',
 };
 
