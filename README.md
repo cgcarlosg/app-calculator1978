@@ -67,7 +67,7 @@ or customize them changing the files inside the src/__tests __ folder.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/cgcarlosg/app-calculator1978/issues).
 
 
 ## Show your support
