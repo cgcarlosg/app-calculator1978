@@ -1,102 +1,75 @@
-Calculator
-Simple calculator created with React Framework. It includes all basic operations and edge cases such a number divided by 0 is equal to 'Math Error'.
-
-Calculator
-
-Built With
-Npm
-Heroku
-React
-Live Preview
-Demo
-
-Getting Started
-To get a local copy up and running follow these simple example steps.
-
-Prerequisites
-Computer running Mac OS, Windows, or Linux Ubuntu.
-
-Internet browser: Firefox, Google Chrome, Opera, etc...
-
-Install NodeJs
-
-Optional (For deployment)
-
-Install Heroku CLI
-
-Setup
-Download the code or copy the git repository to your computer.
-
-To install dependencies you need to run the following command in your terminal.
-
-  npm install
-Available Scripts
-In the project directory, you can run:
-
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
-
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-See the section about deployment for more information.
-
-npm run eject
-Note: this is a one-way operation. Once you eject, you can’t go back!
-
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-Deployment
-This project is deployed to Heroku, but you can use Netlify or other platforms you like.
-
-For Heroku deployment we you can enter each of the following commands.
-
-    heroku create your-app-name --buildpack mars/create-react-app
-
-    // you can remove 'your-app-name' if you don't know what name to put
+<h1 align="center"> Calculator </h1>
 
 
-    git push heroku master
+> Math-magicians is a fictional company based in France. They have requested a fully-functional MVC product that would assist them with their calculations.
 
-    // if you are deploying the project from the master branch
-
-
-    git push heroku your-branch:master
-
-    // if you are deploying from a branch different from master
+> The application should be developed using React Framework and NPM. 
 
 
-    heroku open
-And there you go! You have your app deployed to Heroku.
+### You can access a Live Demo [HERE](https://app-calculator1978.herokuapp.com/)
 
-Authors
-👤 Steven Jack Chung
+## Required Interface
 
-GitHub: @cgcarlosg
-Twitter: @cgcarlosg1
-LinkedIn: carlosalbeniogutierrez
+![Screenshot]()
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+## Development
 
-Feel free to check the issues page.
+### #1 Milestone Requirements:
+ - Initiate Documentation
+ - Initiate React Application
+ - Install main dependencies
+ - Deploy the application
+## Built With
 
-Show your support
+- Javascript
+- React Framework
+- NPM
+
+
+## Prerequisites
+
+- Using NPM package and JavaScript knowledge to run and make changes in that project.
+- You should install Node.js to run the server with the dependency used. If you don't have Node you can follow this tutorial to set it on your local machine: [HERE](https://www.w3schools.com/nodejs/default.asp)
+
+
+## Getting Started
+
+To get a local copy of this project running follow these simple steps.
+
+- Clone this repository
+ > `git clone <repo>`
+- Navigate to the Repo Folder
+- To set Webpack and the dependencies run the command
+> `npm install`
+- Use the command below to start the server. 
+> `npm start`
+- Use your favorite browser to open http://localhost:3000 to view it in the browser.
+
+## Testing
+
+This repo contains files to test the application logic and components.
+You can run the following command on your terminal to run the tests.
+
+> `npm test`
+
+or customize them changing the files inside the src/__tests __ folder.
+
+## Authors
+
+👤 **Carlos Gutierrez**
+
+- Github: [Carlos Gutierrez](https://github.com/cgcarlosg)
+- Twitter: [@cgcarlosg1](https://twitter.com/cgcarlosg1)
+- Linkedin: [carlosalbeniogutierrez](https://www.linkedin.com/in/carlosalbeniogutierrez/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+
+## Show your support
+
 Give a ⭐️ if you like this project!
-
