@@ -15,4 +15,4 @@ Display.defaultProps = {
   result: '0',
 };
 
-export default Display
+export default Display;

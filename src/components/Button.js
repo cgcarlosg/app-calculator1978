@@ -16,4 +16,4 @@ Button.defaultProps = {
   name: '',
 };
 
-export default Button
+export default Button;
