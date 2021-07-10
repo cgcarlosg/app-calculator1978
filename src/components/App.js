@@ -12,7 +12,7 @@ function App() {
     operation: null,
   });
 
-  const handleClick = buttonName => {
+  const handleClick = (buttonName) => {
     const result = calculate(calculation, buttonName);
     setCalculation(result);
   };
