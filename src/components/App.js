@@ -1,9 +1,10 @@
 import './App.css';
+import React, { useState } from 'react';
 import Display from './Display';
 import calculate from '../logic/calculate';
 import ButtonPanel from './ButtonPanel';
 
-function App() {
+const App = () => {
 
   const [calculation, setCalculation] = useState({
     total: null,
@@ -13,14 +14,16 @@ function App() {
 
   const handleClick = buttonName => {
     const result = calculate(calculation, buttonName);
-    setCalculation(result);
+    setCalculation({ ...result });
   };
+
+  const result = calculation;
 
   return (
     <>
       <div className="App">
         <header className="App-header">
-        <Display result={calculation} />
+       <Display result={result} />
           <ButtonPanel clickHandler={handleClick} />
         </header>
       </div>
