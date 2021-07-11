@@ -20,7 +20,7 @@ const operate = (numberOne, numberTwo, operation) => {
     if (two === '0') {
       result = { total: 'Math Error', next: null, operation };
     } else {
-        total = one.div(two).toString();
+      total = one.div(two).toString();
       result = { total: null, next: total, operation };
     }
   }
@@ -33,8 +33,7 @@ const operate = (numberOne, numberTwo, operation) => {
   if (operation === '%') {
     total = one.mod(two).toString();
     result = { total: null, next: total, operation };
-    }
-  
+  }
 
   return result;
 };
