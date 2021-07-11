@@ -11,12 +11,12 @@ const Display = ({ result }) => {
   );
 };
 
-  Display.propTypes = {
-    result: PropTypes.shape({
-      total: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      next: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      operation: PropTypes.string,
-    }).isRequired,
+Display.propTypes = {
+  result: PropTypes.shape({
+    total: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    next: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    operation: PropTypes.string,
+  }).isRequired,
 };
 
-export default Display
+export default Display;

@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from './Button';
 import PropTypes from 'prop-types';
+import Button from './Button';
 
 const ButtonPanel = ({ clickHandler }) => {
-  const handleClick = buttonName => {
+  const handleClick = (buttonName) => {
     clickHandler(buttonName);
   };
   const group = [['AC', '+/-', '%', '÷'], ['7', '8', '9', 'x'], ['4', '5', '6', '-'], ['1', '2', '3', '+'], ['0', '.', '=']];
@@ -11,9 +11,9 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <>
       {group.map((elem) => (
-            <div key={elem.toString()}>
+        <div key={elem.toString()}>
           {elem.map((btn) => (
-     <Button key={btn} name={btn} clickHandler={handleClick} />
+            <Button key={btn} name={btn} clickHandler={handleClick} />
           ))}
         </div>
       ))}
