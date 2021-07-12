@@ -1,7 +1,7 @@
 import '../styles/App.css';
 import React, { useState } from 'react';
-import Display from './Display';
 import calculate from '../logic/calculate';
+import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
 const App = () => {

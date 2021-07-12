@@ -1,6 +1,5 @@
 import operate from './operate';
 
-
 const operations = ['+', '−', '÷', '×', '='];
 
 const calculate = ({

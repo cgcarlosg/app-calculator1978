@@ -11,14 +11,14 @@
   border: 1px solid #292d36;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #272b33;
-  color: white;
+  background-color: #f0d0a0;
+  color: Black;
 }
 
 .App-calculator .btnCont:nth-child(2) .btn0,
 .App-calculator .btnCont:nth-child(2) .btn1,
 .App-calculator .btnCont:nth-child(2) .btn2 {
-  color: #278f81;
+  color: rgb(206, 35, 35);
 }
 
 .App-calculator .btnCont:last-child .btn0 {
@@ -32,7 +32,7 @@
 
 .btn3,
 .App-calculator .btnCont:last-child .btn2 {
-  color: #b95759;
+  color: #0e6922;
 }
 
 :focus {
