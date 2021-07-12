@@ -11,7 +11,7 @@ const App = () => {
     operation: null,
   });
 
-  const handleClick = (buttonName) => {
+  const handleClick = buttonName => {
     const result = calculate(calculation, buttonName);
     setCalculation({ ...result });
   };
@@ -21,10 +21,10 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <header className="App-header">
+        <div className="App-calculator">
           <Display result={result} />
           <ButtonPanel clickHandler={handleClick} />
-        </header>
+        </div>
       </div>
     </>
   );

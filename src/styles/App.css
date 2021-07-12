@@ -8,3 +8,26 @@ body {
   height: 100vh;
   background-color: #1c1d22;
 }
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 85%;
+  display: flex;
+}
+
+.App-calculator {
+  width: 1000px;
+  margin: auto;
+}
+
+.Display {
+  width: 1000px;
+  padding: 30px 40px 30px 0;
+  font-size: 3em;
+  text-align: right;
+  color: white;
+  background-color: #22252d;
+}

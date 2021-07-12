@@ -16,7 +16,8 @@ const operate = (numberOne, numberTwo, operation) => {
     total = one.plus(two).toString();
     result = { total: null, next: total, operation };
   }
-  if (operation === '-') {
+
+  if (operation === '−') {
     total = one.minus(two).toString();
     result = { total: null, next: total, operation };
   }
@@ -30,7 +31,7 @@ const operate = (numberOne, numberTwo, operation) => {
     }
   }
 
-  if (operation === 'x') {
+  if (operation === '×') {
     total = one.times(two).toString();
     result = { total: null, next: total, operation };
   }
