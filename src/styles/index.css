@@ -4,3 +4,27 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #b95759;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.title {
+  color: #278f81;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18%;
+  padding: 0 10px;
+}
