@@ -10,7 +10,7 @@
 
 ## Required Interface
 
-![Screenshot]()
+![Screenshot](./public/screenshot.jpg)
 
 ## Development
 
