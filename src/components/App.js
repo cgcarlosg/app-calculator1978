@@ -16,13 +16,15 @@ const App = () => {
     setCalculation({ ...result });
   };
 
-  const result = calculation;
-
   return (
     <>
       <div className="App">
         <div className="App-calculator">
-          <Display result={result} />
+          <Display
+            total={calculation.total}
+            next={calculation.next}
+            operation={calculation.operation}
+          />
           <ButtonPanel clickHandler={handleClick} />
         </div>
       </div>

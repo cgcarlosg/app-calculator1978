@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({ result }) => {
+const Display = result => {
   const { total, next, operation } = result;
   let nextD;
   if (total == null) {
