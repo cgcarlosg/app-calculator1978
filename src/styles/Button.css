@@ -1,0 +1,40 @@
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 30px;
+  width: 100%;
+  border: 1px solid #292d36;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #f5ead9;
+  color: black;
+}
+
+.App-calculator .btnCont:nth-child(2) .btn0,
+.App-calculator .btnCont:nth-child(2) .btn1,
+.App-calculator .btnCont:nth-child(2) .btn2 {
+  color: rgb(206, 35, 35);
+}
+
+.App-calculator .btnCont:last-child .btn0 {
+  width: 50%;
+}
+
+.App-calculator .btnCont:last-child .btn1,
+.App-calculator .btnCont:last-child .btn2 {
+  width: 25%;
+}
+
+.btn3,
+.App-calculator .btnCont:last-child .btn2 {
+  color: #0e6922;
+}
+
+:focus {
+  outline: none;
+}

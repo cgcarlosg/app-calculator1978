@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #e5e7ca;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 85%;
+  display: flex;
+}
+
+.App-calculator {
+  width: 1000px;
+  margin: auto;
+}
+
+.Display {
+  width: 1000px;
+  padding: 30px 40px 30px 0;
+  font-size: 3em;
+  text-align: right;
+  color: black;
+  background-color: #dee9d2;
+}
