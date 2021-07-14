@@ -1,0 +1,16 @@
+.quote-body {
+  padding: 0 90px;
+  display: flex;
+  align-items: center;
+  height: 85%;
+  color: black;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  padding: 10px 60px;
+}
