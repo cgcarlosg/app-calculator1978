@@ -23,6 +23,7 @@
 
 - Javascript
 - React Framework
+- CSS
 - NPM
 
 
